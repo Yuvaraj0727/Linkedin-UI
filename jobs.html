@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobwala</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="short icon" href="./images/jw1">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo">
+                <img src="./images/jw1" alt="Company logo">
+            </a>
+
+            <div class="search-box">
+                <img src="./images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="index.html" ><img src="./images/home.png" alt=""><span>Home</span></a></li>
+                <li><a href="./jobs.html" class="active-link"><img src="./images/jobs.png" alt=""><span>Jobs</span></a></li>
+                <li><a href="./notification.html"><img src="./images/notification.png" alt=""><span>Notification</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="./images/user-1.png" class="nav-profile-img" onclick="toglemenu()">
+            </div>
+        </div>
+        <!-- profile drop down menu -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="./images/user-1.png" alt="">
+                    <div>
+                        <h3>Yuvii😘</h3>
+                        <a href="yuviiprofile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/feedback.png" alt="">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/setting.png" alt="">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/help.png" alt="">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/display.png" alt="">
+                    <p>Display and Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/logout.png" alt="">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+                                            <!-- navbar end here -->
+
+    <div class="container">
+        <!-- left sidebar code start -->
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <img src="./images/cover-pic.png" width="100%">
+                <div class="sidebar-profile-info">
+                    <img src="./images/user-1.png" alt="">
+                    <h1>Yuvii</h1>
+                    <h3>Web application Developer</h3>
+                    <ul>
+                        <li>Your profile views <span>52</span></li>
+                        <li>Your post views <span>52</span></li>
+                        <li>Your connections <span>52</span></li>
+                    </ul>
+                </div>
+                <div class="sidebar-profile-link">
+                    <a href="#"><img src="./images/items.png" alt="">My items</a>
+                    <!-- <a href="#"><img src="./images/premium.png" alt="">Try Primium</a> -->
+                </div>
+            </div>
+
+            <div class="sidebar-activities">
+                <h3>RECENT</h3>
+                <a href="#"><img src="images/recent.png" alt="">Web Development</a>
+                <a href="#"><img src="images/recent.png" alt="">User Interface</a>
+                <a href="#"><img src="images/recent.png" alt="">Online Learing</a>
+                <a href="#"><img src="images/recent.png" alt="">Code Bett</a>
+                <a href="#"><img src="images/recent.png" alt="">Group Learing</a>
+
+                <h3>GROUPS</h3>
+                <a href="#"><img src="./images/group.png" alt="">Web Design Group</a>
+                <a href="#"><img src="./images/group.png" alt="">HTML & CSS Learners</a>
+                <a href="#"><img src="./images/group.png" alt="">Python & Javascript Group</a>
+                <a href="#"><img src="./images/group.png" alt="">Learn Coding Online</a>
+
+                <h3>HASTAG</h3>
+                <a href="#"><img src="./images/hashtag.png" alt="">webdevelopment</a>
+                <a href="#"><img src="./images/hashtag.png" alt="">userinterface</a>
+                <a href="#"><img src="./images/hashtag.png" alt="">onlinelearing</a>
+
+                <div class="discover-more-link">
+                    <a href="#">Discover More</a>
+                </div>
+            </div>
+            </div>
+            
+        
+        <!-- left sidebar code end -->
+
+        <!-- main content code start -->
+        <div class="main-content">
+            <div class="note-main">
+                <img src="./images/jobs.png" alt="">
+                <div>
+                    <h2>Jobs</h2> 
+                </div>
+            </div>
+            <hr>
+            <div class="note-main">
+                <img src="./images/feedback.png" alt="">
+                <div>
+                    <h2>No job notification Currenty</h2> 
+                </div>
+            </div>
+        </div>
+        <!-- main content code end -->
+
+        <!-- right sidebar code start -->
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+               
+                <img src="./images/more.png" alt="" class="info-icon">
+                <h3>Trending News</h3>
+                <a href="#">High demand for skilled manpower</a>
+                <span>1d ago &middot; 10,934 readers</span>
+
+                <a href="#">Careers growing horizontally too</a>
+                <span>19h ago &middot; 1,552 readers</span>
+
+                <a href="#">Less work visa for US, more for UK</a>
+                <span>1d ago &middot; 27,299 readers</span>
+
+                <a href="#">More hiring = higher confidence</a>
+                <span>18h ago &middot; 8,288 readers</span>
+
+                <a href="#">Gautam Adani is the world's thired richest</a>
+                <span>12h ago &middot; 4,934 readers</span>
+
+                <a href="#" class="read-more-link">Read More</a>
+
+            </div>
+
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principles of web design </p>
+                <div>
+                    <img src="./images/user-1.png" alt="">
+                    <img src="./images/mi-logo.png" alt="">
+                </div>
+
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+            </div>
+
+            <div class="copyright-msg">
+                <img src="images/jw1" width="30px">
+                <p>Jobwala &#169; 2024. All right reserved </p>
+            </div>
+        </div>
+        <!-- right sidebar code end -->
+    </div>
+
+
+
+
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+
+        function toglemenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+</body>
+</html>
